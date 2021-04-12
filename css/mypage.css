@@ -1,0 +1,67 @@
+body {
+    background-color: rgb(236, 125, 20);
+}
+
+.container {
+    margin: 100px 230px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding-top: 25px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+input#date {
+    margin-bottom: 15px;
+}
+
+input#naiyou {
+    margin-bottom: 15px;
+}
+
+input#submit_button {
+    padding: 15px 40px;
+    margin-top: 15px;
+    font-size: 1.2em;
+    background-color: #38A1E5;
+    color: #fff;
+    border-style: none;
+    border-radius: 10px;
+}
+
+input#submit_button:hover {
+    cursor: pointer;
+    background-color: #ABD9F9;
+}
+
+#logout {
+    text-align: right;
+}
+
+#logout_button {
+    background-color: #6AC93F;
+    color: white;
+    padding: 15px 40px;
+    margin-top: 15px;
+    font-size: 1.2em;
+    border-style: none;
+    border-radius: 10px;
+}
+
+#logout_button:hover {
+    cursor: pointer;
+    background-color: #e0e956;
+    transition: .5s;
+}
+
+@media screen and (max-width: 959px) {
+    /* 959px以下に適用されるCSS（タブレット用） */
+    .container {
+        margin: 100px 50px;
+        background-color: #ffffff;
+        border-radius: 10px;
+        text-align: center;
+        padding-top: 25px;
+        padding-bottom: 50px;
+    }
+}

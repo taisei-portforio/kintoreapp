@@ -1,0 +1,28 @@
+body {
+    background-color: rgb(236, 125, 20);
+}
+
+.container {
+    margin: 100px 230px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding-top: 25px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+p {
+    margin-left: 50px;
+}
+
+@media screen and (max-width: 959px) {
+    /* 959px以下に適用されるCSS（タブレット用） */
+    .container {
+        margin: 100px 50px;
+        background-color: #ffffff;
+        border-radius: 10px;
+        text-align: center;
+        padding-top: 25px;
+        padding-bottom: 50px;
+    }
+}

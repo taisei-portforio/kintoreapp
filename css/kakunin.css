@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(236, 125, 20);
+}
+
+.container {
+    margin: 100px 230px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding-top: 25px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.modoru {
+    padding: 15px 40px;
+    margin-top: 15px;
+    font-size: 1.2em;
+    background-color: #38A1E5;
+    color: #fff;
+    border-style: none;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.modoru:hover {
+    cursor: pointer;
+    background-color: #ABD9F9;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 959px) {
+    /* 959px以下に適用されるCSS（タブレット用） */
+    .container {
+        margin: 100px 50px;
+        background-color: #ffffff;
+        border-radius: 10px;
+        text-align: center;
+        padding-top: 25px;
+        padding-bottom: 50px;
+    }
+}
